@@ -5,18 +5,26 @@
 	background: @tree-view-background-color;
 
 	.selected:before {
-		background: #C1C1C1;
+  	background: @panel-heading-background-color;
+    box-shadow: inset -3px 0 0 rgba(0,0,0, .05);
+  }
+
+  font-size: 11px;
+  &.list-tree .list-item {
+    line-height: 20px !important;
+		color: @text-color;
+  }
+  .selected:before {
+    height: 20px;
 	}
 }
 
 .focusable-panel {
 	opacity: 1;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#e8ecf1), to(#ebebeb));
-	background-image: -webkit-linear-gradient(top, #e8ecf1, #ebebeb);
+  box-shadow: inset -3px 0 0 rgba(0,0,0, .05);
 
 	&:focus {
-		background-image: -webkit-gradient(linear, left top, left bottom, from(#e8ecf1),to(#d1d8e0));
-		background-image: -webkit-linear-gradient(top, #e8ecf1, #d1d8e0);
+    background: #F3F3F3;
 
 		.selected:before {
 			background: @background-color-selected;

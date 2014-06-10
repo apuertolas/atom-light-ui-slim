@@ -1,9 +1,9 @@
-# Atom Light UI theme
+# Atom Light UI Slim theme
 
-Default light UI theme for Atom.
+This is a port of [moonssong's atom-dark-ui-slim theme](https://github.com/moonsspoon/atom-dark-ui-slim) to the light version.
 
-This theme is installed by default with Atom and can be activated by going to
-the _Themes_ section in the Settings view (`cmd-,`) and selecting it from the
-_UI Themes_ drop-down menu.
+## Slim Theme
+![Preview Image](https://raw.github.com/apuertolas/atom-light-ui-slim/screenshots/after.png)
 
-![](https://f.cloud.github.com/assets/671378/2265022/bb148a20-9e7a-11e3-81c8-bf5965d48183.png)
+## Original Theme
+![Original Theme](https://raw.github.com/apuertolas/atom-light-ui-slim/screenshots/before.png)
