@@ -1,7 +1,7 @@
 {
   "name": "atom-light-ui-slim",
   "theme": "ui",
-  "version": "0.1.0",
+  "version": "0.25.1",
   "description": "An slim version of atom-light-ui",
   "repository": "https://github.com/apuertolas/atom-light-ui-slim.git",
   "license": "MIT",
